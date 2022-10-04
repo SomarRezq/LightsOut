@@ -1,7 +1,6 @@
 # LightsOut
-Lights-Out project
 
-to run this app:
--install .net Core V6
--clone this repository
--run the .sln file with vs studio
+to run this app:</br>
+ -install .net Core V6 </br>
+ -clone this repository</br>
+ -run the .sln file with vs studio</br>
