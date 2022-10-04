@@ -7,4 +7,24 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="assets\PNG\IMAGE_off.png" />
+    <None Remove="assets\PNG\IMAGE_on.png" />
+    <None Remove="assets\PNG\IMAGE_pressed.png" />
+    <None Remove="assets\PNG\IMAGE_switch.png" />
+    <None Remove="assets\PNG\IMAGE_trophy.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\PNG\IMAGE_off.png" />
+    <Resource Include="assets\PNG\IMAGE_on.png" />
+    <Resource Include="assets\PNG\IMAGE_pressed.png" />
+    <Resource Include="assets\PNG\IMAGE_switch.png" />
+    <Resource Include="assets\PNG\IMAGE_trophy.png" />
+  </ItemGroup>
+
 </Project>
